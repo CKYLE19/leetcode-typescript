@@ -1,0 +1,26 @@
+{
+  "name": "leetcode-typescript",
+  "version": "1.0.0",
+  "description": "Leetcode problem solutions implemented in TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CKYLE19/leetcode-typescript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CKYLE19/leetcode-typescript/issues"
+  },
+  "homepage": "https://github.com/CKYLE19/leetcode-typescript#readme",
+  "devDependencies": {
+    "@types/jasmine": "^3.6.2",
+    "@types/node": "^14.14.21",
+    "jasmine": "^3.6.3",
+    "jasmine-ts-console-reporter": "^3.1.1"
+  },
+  "dependencies": {}
+}
