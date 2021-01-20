@@ -1,4 +1,4 @@
-import { FizzBuzz } from "../fizzBuzz"
+import { FizzBuzz } from "../js/fizzBuzz"
 
 describe("FizzBuzz leetcode problem", () => {
     it("should only print [1, 2, Fizz] if input is 3", () => {

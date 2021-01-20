@@ -1,4 +1,4 @@
-import { NonDuplicateInSortedArray } from "../singleNonDuplicateInSortedArray"
+import { NonDuplicateInSortedArray } from "../js/singleNonDuplicateInSortedArray"
 
 describe("Find the single element in the array that is not a duplicate", () => {
     it("Should return -1 if no duplicates", () => {

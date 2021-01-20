@@ -1,4 +1,4 @@
-import { TwoSum } from "../twoSum";
+import { TwoSum } from "../js/twoSum";
 
 describe("two sum suite desc", () => {
     it("Should find 2 & 7 = 9", () => {

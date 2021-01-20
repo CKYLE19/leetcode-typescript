@@ -2,7 +2,7 @@
   "name": "leetcode-typescript",
   "version": "1.0.0",
   "description": "Leetcode problem solutions implemented in TypeScript",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
     "test": "jasmine"
   },
