@@ -1,3 +1,10 @@
+/*
+
+Leetcode 1. Two Sum
+https://leetcode.com/problems/two-sum/
+
+*/
+
 export class TwoSum {
     public twoSum(nums: number[], target: number): number[] {
         let diffs: Record<number, number> = {}
