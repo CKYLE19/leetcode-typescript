@@ -38,6 +38,16 @@ export class NumIslands {
 
     public getNeighbors(grid: string[][], row: number, col: number): number[][] {
         var neighbors: number[][] = [];
+
+        // Check in bounds coordinates
+        if (row < 0 || row >= grid.length) {
+            return neighbors;
+        }
+        if (col < 0 || col >= grid[row].length) {
+            return neighbors;
+        }
+
+        // Get neighbors
         if (row - 1 >= 0 && grid[row - 1][col] == LAND) {
             neighbors.push([row - 1, col]);
         }
